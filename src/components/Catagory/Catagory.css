@@ -1,0 +1,9 @@
+@media (max-width: 1330px) {
+    .catagory img {
+      margin-bottom: 10px;
+    }
+  }
+  
+  .catagory img {
+    cursor: pointer;
+  }

@@ -1,0 +1,32 @@
+.cart-icon {
+  position: relative;
+  cursor: pointer;
+}
+
+.cart-icon span {
+  min-width: 20px;
+  text-align: center;
+  background: rgb(136, 179, 136);
+  position: absolute;
+  padding: 2.5px;
+  top: 0;
+  right: -10px;
+  line-height: 1;
+  font-size: 12px;
+  border-radius: 18px;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  animation: sticky-header 0.3s;
+}
+
+@keyframes sticky-header {
+  0% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

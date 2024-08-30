@@ -1,0 +1,60 @@
+.cart-products {
+  flex-grow: 1;
+}
+
+.cart-products:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.cart-product {
+  padding: 20px 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.image-contaner {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.image-contaner img {
+  height: 20px;
+  width: 20px;
+}
+
+.product-detail {
+  overflow: hidden;
+  position: relative;
+}
+
+.name {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 16px;
+  line-height: 1;
+  margin-bottom: 10px;
+  font-weight: 600;
+  display: block;
+  padding-right: 25px;
+}
+
+.textno {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.highlight {
+  color: #8e2de2;
+}
+
+.name svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}

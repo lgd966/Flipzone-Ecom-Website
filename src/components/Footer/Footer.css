@@ -1,0 +1,11 @@
+.footer {
+  background: #fceded;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.pages li {
+  cursor: pointer;
+}
